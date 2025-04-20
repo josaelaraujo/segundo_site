@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import "{{ site.theme }}";
+
+
 * img {
     display: block;
 }
