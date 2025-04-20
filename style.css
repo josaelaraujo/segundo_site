@@ -74,12 +74,12 @@ header a {
 }
 
 .container .list .list-item .discription {
-    font-size: 1.5em;
+    font-size: 1.5em auto;
     height: 100%;
 }
 
 .container .list .list-item .title {
-    font-size: 3.5em;
+    font-size: 4em auto;
 }
 
 .container .list .list-item .buttons {
@@ -120,7 +120,9 @@ header a {
 }
 
 .container .thumb {
-    position: absolute;
+    min-width: 280px auto;
+    max-width: 800px auto;
+    position: fixed;
     bottom: 50px;
     left: 50%;
     display: flex;
@@ -144,8 +146,8 @@ header a {
 
 .container .thumb .content {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 10px auto;
+    left: 10px auto;
 }
 
 .container .arrows {
@@ -156,6 +158,7 @@ header a {
     bottom: 120px;
     left: 120px;
     width: 300px;
+    left: 64px;
 }
 
 .container .arrows button {
